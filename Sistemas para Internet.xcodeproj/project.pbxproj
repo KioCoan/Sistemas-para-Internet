@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9147E10819CA21CB0005A72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E10719CA21CB0005A72D /* main.m */; };
+		9147E10B19CA21CB0005A72D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E10A19CA21CB0005A72D /* AppDelegate.m */; };
+		9147E10E19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9147E10C19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodeld */; };
+		9147E11119CA21CB0005A72D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E11019CA21CB0005A72D /* ViewController.m */; };
+		9147E11419CA21CB0005A72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9147E11219CA21CB0005A72D /* Main.storyboard */; };
+		9147E11619CA21CB0005A72D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9147E11519CA21CB0005A72D /* Images.xcassets */; };
+		9147E11919CA21CB0005A72D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9147E11719CA21CB0005A72D /* LaunchScreen.xib */; };
+		9147E12519CA21CB0005A72D /* Sistemas_para_InternetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E12419CA21CB0005A72D /* Sistemas_para_InternetTests.m */; };
+		9147E13019CA2AD80005A72D /* Notificacoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E12F19CA2AD80005A72D /* Notificacoes.m */; };
+		9147E13319CA2AD90005A72D /* Atualizacao.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E13219CA2AD90005A72D /* Atualizacao.m */; };
+		9147E13619CA2AD90005A72D /* Horarios.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E13519CA2AD90005A72D /* Horarios.m */; };
+		9147E13C19CA2B770005A72D /* CCWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E13B19CA2B770005A72D /* CCWS.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9147E11F19CA21CB0005A72D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9147E0FA19CA21CB0005A72D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9147E10119CA21CB0005A72D;
+			remoteInfo = "Sistemas para Internet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9147E10219CA21CB0005A72D /* Sistemas para Internet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sistemas para Internet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9147E10619CA21CB0005A72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9147E10719CA21CB0005A72D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9147E10919CA21CB0005A72D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9147E10A19CA21CB0005A72D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9147E10D19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sistemas_para_Internet.xcdatamodel; sourceTree = "<group>"; };
+		9147E10F19CA21CB0005A72D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9147E11019CA21CB0005A72D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9147E11319CA21CB0005A72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9147E11519CA21CB0005A72D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9147E11819CA21CB0005A72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9147E11E19CA21CB0005A72D /* Sistemas para InternetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sistemas para InternetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9147E12319CA21CB0005A72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9147E12419CA21CB0005A72D /* Sistemas_para_InternetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sistemas_para_InternetTests.m; sourceTree = "<group>"; };
+		9147E12E19CA2AD80005A72D /* Notificacoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notificacoes.h; sourceTree = "<group>"; };
+		9147E12F19CA2AD80005A72D /* Notificacoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notificacoes.m; sourceTree = "<group>"; };
+		9147E13119CA2AD90005A72D /* Atualizacao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atualizacao.h; sourceTree = "<group>"; };
+		9147E13219CA2AD90005A72D /* Atualizacao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Atualizacao.m; sourceTree = "<group>"; };
+		9147E13419CA2AD90005A72D /* Horarios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horarios.h; sourceTree = "<group>"; };
+		9147E13519CA2AD90005A72D /* Horarios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horarios.m; sourceTree = "<group>"; };
+		9147E13A19CA2B770005A72D /* CCWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWS.h; sourceTree = "<group>"; };
+		9147E13B19CA2B770005A72D /* CCWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCWS.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9147E0FF19CA21CB0005A72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9147E11B19CA21CB0005A72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9147E0F919CA21CB0005A72D = {
+			isa = PBXGroup;
+			children = (
+				9147E10419CA21CB0005A72D /* Sistemas para Internet */,
+				9147E12119CA21CB0005A72D /* Sistemas para InternetTests */,
+				9147E10319CA21CB0005A72D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9147E10319CA21CB0005A72D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9147E10219CA21CB0005A72D /* Sistemas para Internet.app */,
+				9147E11E19CA21CB0005A72D /* Sistemas para InternetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9147E10419CA21CB0005A72D /* Sistemas para Internet */ = {
+			isa = PBXGroup;
+			children = (
+				9147E13719CA2AF60005A72D /* WebService */,
+				9147E10919CA21CB0005A72D /* AppDelegate.h */,
+				9147E10A19CA21CB0005A72D /* AppDelegate.m */,
+				9147E10F19CA21CB0005A72D /* ViewController.h */,
+				9147E11019CA21CB0005A72D /* ViewController.m */,
+				9147E11219CA21CB0005A72D /* Main.storyboard */,
+				9147E11519CA21CB0005A72D /* Images.xcassets */,
+				9147E11719CA21CB0005A72D /* LaunchScreen.xib */,
+				9147E10C19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodeld */,
+				9147E13419CA2AD90005A72D /* Horarios.h */,
+				9147E13519CA2AD90005A72D /* Horarios.m */,
+				9147E13119CA2AD90005A72D /* Atualizacao.h */,
+				9147E13219CA2AD90005A72D /* Atualizacao.m */,
+				9147E12E19CA2AD80005A72D /* Notificacoes.h */,
+				9147E12F19CA2AD80005A72D /* Notificacoes.m */,
+				9147E10519CA21CB0005A72D /* Supporting Files */,
+			);
+			path = "Sistemas para Internet";
+			sourceTree = "<group>";
+		};
+		9147E10519CA21CB0005A72D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9147E10619CA21CB0005A72D /* Info.plist */,
+				9147E10719CA21CB0005A72D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9147E12119CA21CB0005A72D /* Sistemas para InternetTests */ = {
+			isa = PBXGroup;
+			children = (
+				9147E12419CA21CB0005A72D /* Sistemas_para_InternetTests.m */,
+				9147E12219CA21CB0005A72D /* Supporting Files */,
+			);
+			path = "Sistemas para InternetTests";
+			sourceTree = "<group>";
+		};
+		9147E12219CA21CB0005A72D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9147E12319CA21CB0005A72D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9147E13719CA2AF60005A72D /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				9147E13A19CA2B770005A72D /* CCWS.h */,
+				9147E13B19CA2B770005A72D /* CCWS.m */,
+			);
+			name = WebService;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9147E10119CA21CB0005A72D /* Sistemas para Internet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9147E12819CA21CB0005A72D /* Build configuration list for PBXNativeTarget "Sistemas para Internet" */;
+			buildPhases = (
+				9147E0FE19CA21CB0005A72D /* Sources */,
+				9147E0FF19CA21CB0005A72D /* Frameworks */,
+				9147E10019CA21CB0005A72D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sistemas para Internet";
+			productName = "Sistemas para Internet";
+			productReference = 9147E10219CA21CB0005A72D /* Sistemas para Internet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9147E11D19CA21CB0005A72D /* Sistemas para InternetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9147E12B19CA21CB0005A72D /* Build configuration list for PBXNativeTarget "Sistemas para InternetTests" */;
+			buildPhases = (
+				9147E11A19CA21CB0005A72D /* Sources */,
+				9147E11B19CA21CB0005A72D /* Frameworks */,
+				9147E11C19CA21CB0005A72D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9147E12019CA21CB0005A72D /* PBXTargetDependency */,
+			);
+			name = "Sistemas para InternetTests";
+			productName = "Sistemas para InternetTests";
+			productReference = 9147E11E19CA21CB0005A72D /* Sistemas para InternetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9147E0FA19CA21CB0005A72D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kio Coan";
+				TargetAttributes = {
+					9147E10119CA21CB0005A72D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					9147E11D19CA21CB0005A72D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 9147E10119CA21CB0005A72D;
+					};
+				};
+			};
+			buildConfigurationList = 9147E0FD19CA21CB0005A72D /* Build configuration list for PBXProject "Sistemas para Internet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9147E0F919CA21CB0005A72D;
+			productRefGroup = 9147E10319CA21CB0005A72D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9147E10119CA21CB0005A72D /* Sistemas para Internet */,
+				9147E11D19CA21CB0005A72D /* Sistemas para InternetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9147E10019CA21CB0005A72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9147E11419CA21CB0005A72D /* Main.storyboard in Resources */,
+				9147E11919CA21CB0005A72D /* LaunchScreen.xib in Resources */,
+				9147E11619CA21CB0005A72D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9147E11C19CA21CB0005A72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9147E0FE19CA21CB0005A72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9147E13619CA2AD90005A72D /* Horarios.m in Sources */,
+				9147E13C19CA2B770005A72D /* CCWS.m in Sources */,
+				9147E10E19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodeld in Sources */,
+				9147E10B19CA21CB0005A72D /* AppDelegate.m in Sources */,
+				9147E13019CA2AD80005A72D /* Notificacoes.m in Sources */,
+				9147E11119CA21CB0005A72D /* ViewController.m in Sources */,
+				9147E13319CA2AD90005A72D /* Atualizacao.m in Sources */,
+				9147E10819CA21CB0005A72D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9147E11A19CA21CB0005A72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9147E12519CA21CB0005A72D /* Sistemas_para_InternetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9147E12019CA21CB0005A72D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9147E10119CA21CB0005A72D /* Sistemas para Internet */;
+			targetProxy = 9147E11F19CA21CB0005A72D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9147E11219CA21CB0005A72D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9147E11319CA21CB0005A72D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9147E11719CA21CB0005A72D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9147E11819CA21CB0005A72D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9147E12619CA21CB0005A72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9147E12719CA21CB0005A72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9147E12919CA21CB0005A72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sistemas para Internet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9147E12A19CA21CB0005A72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sistemas para Internet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9147E12C19CA21CB0005A72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sistemas para InternetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sistemas para Internet.app/Sistemas para Internet";
+			};
+			name = Debug;
+		};
+		9147E12D19CA21CB0005A72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sistemas para InternetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sistemas para Internet.app/Sistemas para Internet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9147E0FD19CA21CB0005A72D /* Build configuration list for PBXProject "Sistemas para Internet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9147E12619CA21CB0005A72D /* Debug */,
+				9147E12719CA21CB0005A72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9147E12819CA21CB0005A72D /* Build configuration list for PBXNativeTarget "Sistemas para Internet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9147E12919CA21CB0005A72D /* Debug */,
+				9147E12A19CA21CB0005A72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9147E12B19CA21CB0005A72D /* Build configuration list for PBXNativeTarget "Sistemas para InternetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9147E12C19CA21CB0005A72D /* Debug */,
+				9147E12D19CA21CB0005A72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9147E10C19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9147E10D19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodel */,
+			);
+			currentVersion = 9147E10D19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodel */;
+			path = Sistemas_para_Internet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9147E0FA19CA21CB0005A72D /* Project object */;
+}
