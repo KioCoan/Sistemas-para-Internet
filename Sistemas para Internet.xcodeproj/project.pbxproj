@@ -10,7 +10,6 @@
 		9147E10819CA21CB0005A72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E10719CA21CB0005A72D /* main.m */; };
 		9147E10B19CA21CB0005A72D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E10A19CA21CB0005A72D /* AppDelegate.m */; };
 		9147E10E19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9147E10C19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodeld */; };
-		9147E11119CA21CB0005A72D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E11019CA21CB0005A72D /* ViewController.m */; };
 		9147E11419CA21CB0005A72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9147E11219CA21CB0005A72D /* Main.storyboard */; };
 		9147E11619CA21CB0005A72D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9147E11519CA21CB0005A72D /* Images.xcassets */; };
 		9147E11919CA21CB0005A72D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9147E11719CA21CB0005A72D /* LaunchScreen.xib */; };
@@ -19,6 +18,12 @@
 		9147E13319CA2AD90005A72D /* Atualizacao.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E13219CA2AD90005A72D /* Atualizacao.m */; };
 		9147E13619CA2AD90005A72D /* Horarios.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E13519CA2AD90005A72D /* Horarios.m */; };
 		9147E13C19CA2B770005A72D /* CCWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E13B19CA2B770005A72D /* CCWS.m */; };
+		9147E15519CA2F2C0005A72D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9147E15419CA2F2C0005A72D /* CFNetwork.framework */; };
+		9147E15719CA2F420005A72D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9147E15619CA2F420005A72D /* SystemConfiguration.framework */; };
+		9147E15919CA2F510005A72D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9147E15819CA2F510005A72D /* MobileCoreServices.framework */; };
+		9147E15B19CA2F7D0005A72D /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9147E15A19CA2F7D0005A72D /* libz.1.2.5.dylib */; };
+		9147E15F19CA30130005A72D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9147E15E19CA30130005A72D /* MBProgressHUD.m */; };
+		91952CED19CB521F003C54E2 /* SemestresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91952CEC19CB521F003C54E2 /* SemestresViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,6 @@
 		9147E10919CA21CB0005A72D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9147E10A19CA21CB0005A72D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9147E10D19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sistemas_para_Internet.xcdatamodel; sourceTree = "<group>"; };
-		9147E10F19CA21CB0005A72D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9147E11019CA21CB0005A72D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9147E11319CA21CB0005A72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9147E11519CA21CB0005A72D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9147E11819CA21CB0005A72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -54,6 +57,16 @@
 		9147E13519CA2AD90005A72D /* Horarios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horarios.m; sourceTree = "<group>"; };
 		9147E13A19CA2B770005A72D /* CCWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWS.h; sourceTree = "<group>"; };
 		9147E13B19CA2B770005A72D /* CCWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCWS.m; sourceTree = "<group>"; };
+		9147E15419CA2F2C0005A72D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9147E15619CA2F420005A72D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9147E15819CA2F510005A72D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9147E15A19CA2F7D0005A72D /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		9147E15D19CA30130005A72D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9147E15E19CA30130005A72D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		91952CE919CB5151003C54E2 /* SingletonHorario.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonHorario.h; sourceTree = "<group>"; };
+		91952CEA19CB5151003C54E2 /* SingletonHorario.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonHorario.m; sourceTree = "<group>"; };
+		91952CEB19CB521F003C54E2 /* SemestresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemestresViewController.h; sourceTree = "<group>"; };
+		91952CEC19CB521F003C54E2 /* SemestresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemestresViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9147E15B19CA2F7D0005A72D /* libz.1.2.5.dylib in Frameworks */,
+				9147E15919CA2F510005A72D /* MobileCoreServices.framework in Frameworks */,
+				9147E15719CA2F420005A72D /* SystemConfiguration.framework in Frameworks */,
+				9147E15519CA2F2C0005A72D /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +94,10 @@
 		9147E0F919CA21CB0005A72D = {
 			isa = PBXGroup;
 			children = (
+				9147E15A19CA2F7D0005A72D /* libz.1.2.5.dylib */,
+				9147E15819CA2F510005A72D /* MobileCoreServices.framework */,
+				9147E15619CA2F420005A72D /* SystemConfiguration.framework */,
+				9147E15419CA2F2C0005A72D /* CFNetwork.framework */,
 				9147E10419CA21CB0005A72D /* Sistemas para Internet */,
 				9147E12119CA21CB0005A72D /* Sistemas para InternetTests */,
 				9147E10319CA21CB0005A72D /* Products */,
@@ -95,11 +116,10 @@
 		9147E10419CA21CB0005A72D /* Sistemas para Internet */ = {
 			isa = PBXGroup;
 			children = (
+				9147E15C19CA30130005A72D /* MBProgressHUD */,
 				9147E13719CA2AF60005A72D /* WebService */,
 				9147E10919CA21CB0005A72D /* AppDelegate.h */,
 				9147E10A19CA21CB0005A72D /* AppDelegate.m */,
-				9147E10F19CA21CB0005A72D /* ViewController.h */,
-				9147E11019CA21CB0005A72D /* ViewController.m */,
 				9147E11219CA21CB0005A72D /* Main.storyboard */,
 				9147E11519CA21CB0005A72D /* Images.xcassets */,
 				9147E11719CA21CB0005A72D /* LaunchScreen.xib */,
@@ -111,6 +131,10 @@
 				9147E12E19CA2AD80005A72D /* Notificacoes.h */,
 				9147E12F19CA2AD80005A72D /* Notificacoes.m */,
 				9147E10519CA21CB0005A72D /* Supporting Files */,
+				91952CE919CB5151003C54E2 /* SingletonHorario.h */,
+				91952CEA19CB5151003C54E2 /* SingletonHorario.m */,
+				91952CEB19CB521F003C54E2 /* SemestresViewController.h */,
+				91952CEC19CB521F003C54E2 /* SemestresViewController.m */,
 			);
 			path = "Sistemas para Internet";
 			sourceTree = "<group>";
@@ -149,6 +173,15 @@
 			);
 			name = WebService;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		9147E15C19CA30130005A72D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9147E15D19CA30130005A72D /* MBProgressHUD.h */,
+				9147E15E19CA30130005A72D /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,14 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91952CED19CB521F003C54E2 /* SemestresViewController.m in Sources */,
 				9147E13619CA2AD90005A72D /* Horarios.m in Sources */,
 				9147E13C19CA2B770005A72D /* CCWS.m in Sources */,
 				9147E10E19CA21CB0005A72D /* Sistemas_para_Internet.xcdatamodeld in Sources */,
 				9147E10B19CA21CB0005A72D /* AppDelegate.m in Sources */,
 				9147E13019CA2AD80005A72D /* Notificacoes.m in Sources */,
-				9147E11119CA21CB0005A72D /* ViewController.m in Sources */,
 				9147E13319CA2AD90005A72D /* Atualizacao.m in Sources */,
 				9147E10819CA21CB0005A72D /* main.m in Sources */,
+				9147E15F19CA30130005A72D /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +485,7 @@
 				9147E12A19CA21CB0005A72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9147E12B19CA21CB0005A72D /* Build configuration list for PBXNativeTarget "Sistemas para InternetTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +494,7 @@
 				9147E12D19CA21CB0005A72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

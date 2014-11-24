@@ -12,9 +12,9 @@
 
 @interface Notificacoes : NSManagedObject
 
-@property (nonatomic, retain) UNKNOWN_TYPE codN;
-@property (nonatomic, retain) UNKNOWN_TYPE data;
-@property (nonatomic, retain) UNKNOWN_TYPE texto;
-@property (nonatomic, retain) UNKNOWN_TYPE titulo;
+@property (nonatomic, retain) NSNumber* codN;
+@property (nonatomic, retain) NSDate* data;
+@property (nonatomic, retain) NSString* texto;
+@property (nonatomic, retain) NSString* titulo;
 
 @end

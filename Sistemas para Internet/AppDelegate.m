@@ -17,6 +17,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString *dateKey    = @"dateKey";
+    NSDate *lastRead    = (NSDate *)[[NSUserDefaults standardUserDefaults] objectForKey:dateKey];
+    if (lastRead == nil)     // App first run: set up user defaults.
+    {
+        NSDictionary *appDefaults  = [NSDictionary dictionaryWithObjectsAndKeys:[NSDate date], dateKey, nil];
+        
+        [[NSUserDefaults standardUserDefaults]setObject:[NSDate date] forKey:@"novaMensagem"];
+        [[NSUserDefaults standardUserDefaults]setObject:[NSDate date] forKey:@"ultimaAtualizacao"];
+        [[NSUserDefaults standardUserDefaults]setObject:[NSDate date] forKey:@"atualizacaoMensagem"];
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"primeiraAtualizacao"];
+        
+        [[NSUserDefaults standardUserDefaults]registerDefaults:appDefaults];
+        [[NSUserDefaults standardUserDefaults]synchronize];
+    }
+    
+    [[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:dateKey];
     return YES;
 }
 
